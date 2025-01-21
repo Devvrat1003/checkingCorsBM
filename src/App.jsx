@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
     const getRespone = async () => {
+        console.log("https://wsgibm.onrender.com/api/v1/dummy/posts");
         let res = await fetch("https://wsgibm.onrender.com/api/v1/dummy/posts");
         let data = await res.json();
 
